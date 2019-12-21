@@ -14,6 +14,8 @@ issues tab to see how labels, milestones, projects are handled.
 * You will need to manually specify a username mapping from Jira usernames to GitHub usernames.
 
 ## Usage
+    pip install -r requirements.txt
+
     python jira_to_github.py \
     --jira_server <Server URL> \  
     --jira_username <Jira login ID> \  
